@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/vensr/sb-monitor-deploy.git
+    repoURL: https://github.com/BharathiBattu/sb-monitor-deploy.git
     targetRevision: HEAD
     path: dev
   destination: 

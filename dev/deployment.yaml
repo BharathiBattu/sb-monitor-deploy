@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sb-monitor
+  name: sb-monitor-deploy
 spec:
   selector:
     matchLabels:
@@ -16,4 +16,4 @@ spec:
       - name: redux-punch
         image: 11061999/sb-monitor:latest
         ports:
-        - containerPort: 9091
+        - containerPort: 8080
