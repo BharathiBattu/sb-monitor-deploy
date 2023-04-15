@@ -13,7 +13,7 @@ spec:
         app: sb-monitor
     spec:
       containers:
-      - name: redux-punch
+      - name: sb-monitor
         image: 11061999/sb-monitor:latest
         ports:
         - containerPort: 8080
